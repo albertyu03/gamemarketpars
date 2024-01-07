@@ -10,8 +10,8 @@ import json
 #reset_json()
 
 timesRan = 0
-ip = requests.get('https://api.ipify.org').text
-print('My public IP address is: {}'.format(ip))
+#ip = requests.get('https://api.ipify.org').text
+#print('My public IP address is: {}'.format(ip))
 
 while (True):  
   mainQ()
